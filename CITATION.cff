@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "If you use this code in your research, please cite the paper below."
+title: "RENE: Rank adapt tENsor dEcomposition"
+abstract: >-
+  PyTorch implementation of a unified framework for compressing pre-trained
+  neural networks by simultaneously applying tensor decomposition (TT, CP) and
+  optimized rank selection under a composite compression loss.
+authors:
+  - family-names: "Aghababaei-Harandi"
+    given-names: "Ali"
+    affiliation: "Université Grenoble Alpes, CNRS, LIG"
+  - family-names: "Amini"
+    given-names: "Massih-Reza"
+    affiliation: "Université Grenoble Alpes, CNRS, LIG"
+repository-code: "https://github.com/aah94/RENE"
+license: MIT
+preferred-citation:
+  type: article
+  title: "Unified Framework for Pre-trained Neural Network Compression via Decomposition and Optimized Rank Selection"
+  authors:
+    - family-names: "Aghababaei-Harandi"
+      given-names: "Ali"
+    - family-names: "Amini"
+      given-names: "Massih-Reza"
+  journal: "arXiv preprint arXiv:2409.03555"
+  year: 2024
+  url: "https://arxiv.org/abs/2409.03555"

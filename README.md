@@ -226,3 +226,18 @@ notes from those runs:
 * **The fine-tuning learning rate depends on the compression level.** At ~76%
   parameter reduction `lr=1e-5` works well and `1e-2` destroys the model; at ~95%
   reduction the decomposed net starts near chance and the larger rate is better.
+
+## Citation
+
+If you use this code in your research, please cite our paper:
+
+```bibtex
+@article{aghababaeiharandi2024rene,
+  title   = {Unified Framework for Pre-trained Neural Network Compression via
+             Decomposition and Optimized Rank Selection},
+  author  = {Aghababaei-Harandi, Ali and Amini, Massih-Reza},
+  journal = {arXiv preprint arXiv:2409.03555},
+  year    = {2024},
+  url     = {https://arxiv.org/abs/2409.03555}
+}
+```

@@ -1,0 +1,6 @@
+torch>=2.0
+torchvision>=0.15
+numpy>=1.23
+# optional
+matplotlib>=3.5   # figures 4 and 5
+pytest>=7.0       # test suite

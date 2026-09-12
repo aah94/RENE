@@ -1,0 +1,16 @@
+# datasets and experiment outputs
+data/
+runs/
+
+# python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+*.egg-info/
+
+# checkpoints
+*.pth
+*.pt
+*.th

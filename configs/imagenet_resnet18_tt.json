@@ -1,0 +1,8 @@
+{
+  "_comment": "Table 2, RENE(TT) on ResNet-18 / ImageNet-1K. Paper: Top-1 70.88, FLOPs -68.9%, Comp. Rate 67.1%",
+  "arch": "resnet18", "dataset": "imagenet", "decomp": "tt", "pretrained": true,
+  "rank_min": 50, "rank_max": 850, "step": 100, "factor": 10,
+  "iters": 100, "warmup_iters": 20,
+  "lr_w": 1e-4, "lr_alpha": 1e-4, "gamma": 0.4, "beta": 0.8,
+  "finetune": {"epochs": 30, "lr": 1e-5, "lam": 0.5}
+}

@@ -1,0 +1,8 @@
+{
+  "_comment": "Table 1, RENE(TT) on VGG-16 / CIFAR-10. Paper: Top-1 93.20, FLOPs -86.10%, Comp. Rate 95.51%",
+  "arch": "vgg16", "dataset": "cifar10", "decomp": "tt",
+  "rank_min": 10, "rank_max": 100, "step": 10, "factor": 10,
+  "iters": 100, "warmup_iters": 20,
+  "lr_w": 1e-3, "lr_alpha": 1e-3, "gamma": 0.4, "beta": 0.8,
+  "finetune": {"epochs": 100, "lr": 1e-5, "lam": 0.5}
+}

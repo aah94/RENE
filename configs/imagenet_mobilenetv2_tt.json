@@ -1,0 +1,9 @@
+{
+  "_comment": "Table 2, RENE(TT) on MobileNetV2 / ImageNet-1K. Paper: Top-1 70.12, FLOPs -26.7%, Comp. Rate 42.34%. MobileNetV2 is dominated by 1x1 convs, so include_1x1 must be on.",
+  "arch": "mobilenetv2", "dataset": "imagenet", "decomp": "tt", "pretrained": true,
+  "include_1x1": true, "include_grouped": false,
+  "rank_min": 50, "rank_max": 850, "step": 100, "factor": 10,
+  "iters": 100, "warmup_iters": 20,
+  "lr_w": 1e-4, "lr_alpha": 1e-4, "gamma": 0.4, "beta": 0.8,
+  "finetune": {"epochs": 30, "lr": 1e-5, "lam": 0.5}
+}

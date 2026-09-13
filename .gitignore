@@ -1,6 +1,6 @@
-# datasets and experiment outputs
-data/
-runs/
+# datasets and experiment outputs (root only: rene/data/ is a package)
+/data/
+/runs/
 
 # python
 __pycache__/

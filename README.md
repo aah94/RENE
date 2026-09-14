@@ -9,6 +9,14 @@ CP) while **searching the per-layer rank** in a continuous space, using a
 composite compression loss under a rank constraint. A fine-tuning step with a
 layer-wise distillation loss then recovers the original accuracy.
 
+## Updates
+
+- **September 2026** — Initial release: CP/TT decomposition, automatic rank search
+  (Algorithm 1) and fine-tuning, with scripts for the paper's experiments.
+- **In progress** — RENE is being extended into a general framework for model
+  compression, adding **knowledge distillation performed jointly with the rank
+  search** and **pruning**. These will be released in upcoming updates.
+
 ---
 
 ## Where each part of the paper lives
